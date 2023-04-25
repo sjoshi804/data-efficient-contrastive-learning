@@ -148,6 +148,30 @@ End teaser video -->
 </section>
 <!-- End paper abstract -->
 
+<div class="column is-full-width">
+  <h2 class="title is-3">Highlights</h2>
+
+    <h3 class="title is-4">New Problem</h3>
+    <hr>
+    <div class="content has-text-justified">
+      <p>
+        Previous work has studied data-efficiency for supervised learning and shown that nearly 30% of examples can be discarded on many datasets without sacrificing accuracy. 
+        However, this problem has not been studied for self-supervised learning. Our paper proposes the first empirical and theoretical method for data-efficient contrastive learning.
+        We show that across various datasets (CIFAR100, STL10 and TinyImageNet), our method allows you to discard 20-40% of examples without affecting downstream classification accuracy.
+      </p>
+    </div>
+    <img src="./static/images/discard-pct.png">
+    <br>
+    <h3 class="title is-4">Theoretical Guarantees for Downstream Accuracy</h3>
+    <hr>
+    <div class="content has-text-justified">
+      <p>
+        We use [Huang et al. 2023](https://arxiv.org/abs/2111.0074) theoretical characterization of contrastive learning using <b>alignment</b> and <b>divergence of class centers</b> to show that the subset
+        we choose preserves alignment and divergence of class centers and thus preserves downstream accuracy. 
+      </p>
+    </div>
+    <br>
+  </div>
 
 <!-- Image carousel 
 <section class="hero is-small">
